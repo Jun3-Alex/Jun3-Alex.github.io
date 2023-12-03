@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_chat.css">
+    <title>Чат с мармеладными мишками</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./images/logo.jpg" alt="Логотип сайта">
+        </div>
+        <div class="chat">
+            <div class="chat-left">
+                <h3>Выберите мишку</h3>
+                <ul id="mishki">
+                    <li data-name="Мармеладный мишка" data-price="100" data-img="mishka1.jpg"><img src="./images/mishki1.jpg"
+                            alt="Мармеладный мишка"><span>Мармеладный мишка</span></li>
+                    <li data-name="Мармеладный мишка с водкой" data-price="150" data-img="mishka2.jpg"><img
+                            src="./images/mishki2.jpg" alt="Мармеладный мишка с водкой"><span>Мармеладный мишка с водкой</span>
+                    </li>
+                    <li data-name="Мармеладный мишка с коктейлем" data-price="200" data-img="mishka3.jpg"><img
+                            src="./images/mishki3.jpg" alt="Мармеладный мишка с коктейлем"><span>Мармеладный мишка с
+                            коктейлем</span></li>
+                    <li data-name="Мармеладный мишка разных видов" data-price="250" data-img="mishka4.jpg"><img
+                            src="./images/mishki4.jpg" alt="Мармеладный мишка разных видов"><span>Мармеладный мишка разных
+                            видов</span></li>
+                </ul>
+            </div>
+            <div class="chat-right">
+                <h3>Чат с мармеладными мишками</h3>
+                <ul id="messages">
+                    <li class="bot"><img src="./images/logo.jpg" alt="Логотип сайта">
+                        <p>Здравствуйте, мы рады видеть вас на нашем сайте. Вы можете заказать мармеладных мишек, выбрав
+                            их из списка слева. Для этого просто кликните по мишке, которая вам понравилась.</p>
+                    </li>
+                </ul>
+                <div class="input">
+                    <input type="text" id="user-input" placeholder="Введите сообщение...">
+                    <button id="send-button">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+

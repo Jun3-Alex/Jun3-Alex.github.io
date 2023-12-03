@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .logo {
+    text-align: center;
+  }
+  .chat {
+    display: flex;
+    height: 500px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999999;
+    margin: 20px 0;
+  }
+  .chat-left {
+    width: 30%;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  .chat-right {
+    width: 70%;
+    background-color: white;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  .chat-left h3 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .chat-left ul {
+    list-style: none;
+    padding: 0;
+  }
+  .chat-left li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .chat-left li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .chat-left li span {
+    font-weight: bold;
+  }
+  .chat-right h3 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .chat-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  .chat-right li {
+    display: flex;
+    margin: 10px 0;
+  }
+  .chat-right li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .chat-right li p {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+  }
+  .chat-right li.user {
+    justify-content: flex-end;
+  }
+  .chat-right li.user img {
+    order: 2;
+    margin-left: 10px;
+  }
+  .chat-right li.user p {
+    background-color: #ff6600;
+  }
+  .chat-right li.bot {
+    justify-content: flex-start;
+  }
+  .chat-right li.bot img {
+    order: 1;
+    margin-right: 10px;
+  }
+  .chat-right li.bot p {
+    background-color: #333333;
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .input input {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  .input button {
+    width: 15%;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .input button:hover {
+    background-color: #ff9900;
+  }
